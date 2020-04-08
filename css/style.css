@@ -107,12 +107,62 @@ body{
     color: #302C34;
 }
 
-
-.restaurant{
-}
-
 .restaurant-heading{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+.card-text{
+    padding: 20px 24px 30px 24px;
+}
+.card-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.card-time{
+    background: #262626;
+    border-radius: 2px;
+    color: #fff;
+    padding: 8px;
+}
+
+.card-info{
+    display: flex;
+    align-items: center;
+}
+
+.card-info-rating{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+    margin-right: 26px;
+}
+
+.card-info-price, .card-info-category{
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+    margin-right: 26px;
 }
