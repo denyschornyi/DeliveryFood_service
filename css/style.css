@@ -174,5 +174,16 @@ body{
     font-size: 18px;
     line-height: 32px;
     color: #8C8C8C;
-    margin-right: 26px;
+}
+
+.card-info-price::after{
+    content: '';
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 5px;
+    height: 5px;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #8C8C8C;
 }
