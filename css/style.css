@@ -59,7 +59,6 @@ body{
 }
 
 .button{
-    width: 97px;
     color: #595959;
     display: flex;
     align-items: center;
@@ -131,6 +130,7 @@ body{
     border-radius: 7px;
     margin-bottom: 30px;
     overflow: hidden;
+    flex-basis: 31%;
 }
 
 .card-img{
@@ -214,8 +214,10 @@ body{
 .info-link:not(:last-child){
     margin-right: 15px;
 }
-
-.media{
+.footer-nav{
+    flex-wrap: wrap;
+}
+.footer-media{
     display: flex;
     align-items: center;
 }
@@ -233,11 +235,114 @@ body{
         background-size: 600px;
         background-position: top -30px right -250px;
     }
-    .cards{
-        justify-content: space-around;
+    .card-title{
+        font-size: 20px;
+    }
+    .card-time{
+        font-size:15px;
+    }
+
+   
+    .card-info-price , 
+    .card-info-category{
+        font-size: 14px;
     }
 }
 
 @media(max-width: 992px){
+    .container{
+        max-width: 90%;
+    }
+    .promo-title{
+        font-size: 35px;
+    }
+    .promo-text{
+        width: 400px;
+        font-size: 17px;
+    }
+    .card{
+        flex-basis: 43%;
+    }
+    .card-title{
+        font-size: 20px;
+    }
+    .info-link{
+        font-size: 16px;
+    }
+}
 
+@media(max-width: 768px){
+    .container{
+        max-width: 90%;
+    }
+    .input-search{
+        width: 20%;
+    }
+    .promo{
+        background-image: none;
+    }
+    .card-info{
+        flex-wrap: wrap;
+    }
+    .card-info-rating{
+        flex-basis: 100%;
+    }
+    .info-link{
+        flex-basis: 25%;
+    }
+}
+
+@media(max-width: 540px){
+    .header{
+        flex-wrap: wrap;
+    }
+    .header-text{
+        display: none;
+    }
+    .input-search{
+        margin-top: 15px;
+        flex-basis: 100%;
+        order: 3;
+    }
+    .restaurant-heading{
+        flex-wrap: wrap;
+    }
+    .restaurant-title{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .promo{
+        padding: 30px 40px;
+        margin-bottom: 10px;
+    }
+    .promo-title{
+        font-size: 25px;
+    }
+    .promo-text{
+        width: 100%;
+        font-size: 16px;
+    }
+    .card{
+        flex-basis: 100%;
+    }
+    .card-img{
+        width: 100%;
+    }
+    .footer-block{
+        flex-wrap: wrap;
+    }
+    .footer-nav{
+        order: 0;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .footer-logo{
+        order: 1;
+    }
+    .footer-media{
+        order: 2;
+        margin: 10px auto;
+    }
 }
