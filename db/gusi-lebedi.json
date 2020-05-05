@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gl01",
+    "name": "Pelmeni dumplings with piglet",
+    "description": "Real self-made dumplings made of fluffy dough on rustic yolks and sour cream",
+    "price": 39,
+    "image": "img/gusi-lebedi/dumplings.jpg"
+  },
+  {
+    "id": "gl02",
+    "name": "Pilaf",
+    "description": "Charcoal pilaf from regular rice with lamb, spices and vegetables with fat tail fat",
+    "price": 52,
+    "image": "img/gusi-lebedi/plov.jpg"
+  },
+  {
+    "id": "gl03",
+    "name": "Skewer Chicken",
+    "description": "Served on pita bread with fresh tomato and cucumber, with pickled onions and kebab sauce",
+    "price": 49,
+    "image": "img/gusi-lebedi/chick.jpg"
+  },
+  {
+    "id": "gl04",
+    "name": "Chicken pox soup",
+    "description": "Chicken carcass, carrots, pasta, greens, egg, salt, spices.",
+    "price": 14,
+    "image": "img/gusi-lebedi/chicken-soup.jpg"
+  },
+  {
+    "id": "gl05",
+    "name": "Pig Chop",
+    "description": "A thick piece of fresh pork with tomatoes and mushrooms under a cheese crust",
+    "price": 49,
+    "image": "img/gusi-lebedi/pig-chop.jpg"
+  },
+  {
+    "id": "gl06",
+    "name": "Calf in a creamy sauce",
+    "description": "The calf with mushrooms and onions is fried in a creamy cream sauce with mashed potatoes and pickles.",
+    "price": 53,
+    "image": "img/gusi-lebedi/calf-sauce.jpg"
+  },
+  {
+    "id": "gl07",
+    "name": "Baked pike perch",
+    "description": "Pike perch fillet with potatoes, rustic sour cream, herbs and onions",
+    "price": 49,
+    "image": "img/gusi-lebedi/zander.jpg"
+  },
+  {
+    "id": "gl08",
+    "name": "Murmansk squid",
+    "description": "Murmansk squid with garlic butter",
+    "price": 42,
+    "image": "img/gusi-lebedi/squid.jpg"
+  },
+  {
+    "id": "gl09",
+    "name": "Pike ear on crucian carp",
+    "description": "Navigating ear on four fish, laurel, pepper and onion with vodka.",
+    "price": 38,
+    "image": "img/gusi-lebedi/ear.jpg"
+  }
+]

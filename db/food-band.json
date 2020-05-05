@@ -1,0 +1,44 @@
+[
+  {
+    "id": "fb01",
+    "name": "Meat",
+    "description": "Pizza sauce, Mozzarella cheese, tomato, chicken, pepperoni, pork, bacon",
+    "price": 68,
+    "image": "img/food-band/meet.jpg"
+  },
+  {
+    "id": "fb02",
+    "name": "Margarita",
+    "description": "Pizza sauce, mozzarella cheese, tomato",
+    "price": 69,
+    "image": "img/food-band/margarita.jpg"
+  },
+  {
+    "id": "fb03",
+    "name": "Pepperoni",
+    "description": "Pizza sauce, pepperoni, mozzarella cheese",
+    "price": 55,
+    "image": "img/food-band/pepperoni.jpg"
+  },
+  {
+    "id": "fb04",
+    "name": "Seven Cheeses",
+    "description": "Mozzarella cheese, Emmental cheese, cheese sauce, Gorgonzola cheese, Cheddar cheese, Cremette cheese, Fetax cheese, Parmesan cheese",
+    "price": 78,
+    "image": "img/food-band/seven-cheeses.jpg"
+  },
+  {
+    "id": "fb05",
+    "name": "Tom Yan",
+    "description": "Shrimps, chicken, Tom Yam sauce, Mozzarella cheese, mushrooms, broccoli, tomato.",
+    "price": 65,
+    "image": "img/food-band/tom-yam.jpg"
+  },
+  {
+    "id": "fb06",
+    "name": "Norwegian",
+    "description": "Creamy sauce, mango chili sauce, mozzarella cheese, red onion, bell pepper, salmon slices, iceberg salad",
+    "price": 85,
+    "image": "img/food-band/norwegian.jpg"
+  }
+]
