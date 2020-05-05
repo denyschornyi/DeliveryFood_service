@@ -50,15 +50,21 @@ function notAuthorized(){
   function logIn(event){
     event.preventDefault();
     login = loginInput.value;
-
-    localStorage.setItem('delivery', login);
-
-    toggleModalAuth();
-    buttonAuth.removeEventListener('click', toggleModalAuth);
-    closeAuth.removeEventListener('click', toggleModalAuth);
-    logInForm.removeEventListener('submit', logIn);
-    logInForm.reset();
-    checkAuth();
+    if(login){
+      localStorage.setItem('delivery', login);
+      toggleModalAuth();
+      buttonAuth.removeEventListener('click', toggleModalAuth);
+      closeAuth.removeEventListener('click', toggleModalAuth);
+      logInForm.removeEventListener('submit', logIn);
+      logInForm.reset();
+      checkAuth();
+    }else{
+      let warning = document.createElement('div');
+      warning.classList.add('warning');
+      warning.innerHTML = '<strong>Please enter your login and password</strong>';
+      logInForm.append(warning);
+    }
+    
   }
   buttonAuth.addEventListener('click', toggleModalAuth);
   closeAuth.addEventListener('click', toggleModalAuth);
@@ -71,5 +77,6 @@ function checkAuth(){
   }else{
     notAuthorized();
   }
-}   checkAuth();
+}   
+checkAuth();
  

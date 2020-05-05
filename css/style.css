@@ -838,3 +838,9 @@ button {
         margin-right: 0;
     }
 }
+
+/*JS HELP */
+.warning{
+    margin-top: 10px;
+    color: red;
+}
