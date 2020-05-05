@@ -62,7 +62,9 @@ function notAuthorized(){
       let warning = document.createElement('div');
       warning.classList.add('warning');
       warning.innerHTML = '<strong>Please enter your login and password</strong>';
-      logInForm.append(warning);
+      if(!document.querySelector('.warning')){
+        logInForm.append(warning);
+      }
     }
     
   }
